@@ -1,0 +1,14 @@
+C:\backend-git\Server_Side_App\Server_Side_App\bin\Debug\netcoreapp2.1\Server_Side_App.deps.json
+C:\backend-git\Server_Side_App\Server_Side_App\bin\Debug\netcoreapp2.1\Server_Side_App.runtimeconfig.json
+C:\backend-git\Server_Side_App\Server_Side_App\bin\Debug\netcoreapp2.1\Server_Side_App.runtimeconfig.dev.json
+C:\backend-git\Server_Side_App\Server_Side_App\bin\Debug\netcoreapp2.1\Server_Side_App.dll
+C:\backend-git\Server_Side_App\Server_Side_App\bin\Debug\netcoreapp2.1\Server_Side_App.pdb
+C:\backend-git\Server_Side_App\Server_Side_App\obj\Debug\netcoreapp2.1\Server_Side_App.csprojAssemblyReference.cache
+C:\backend-git\Server_Side_App\Server_Side_App\obj\Debug\netcoreapp2.1\Server_Side_App.AssemblyInfoInputs.cache
+C:\backend-git\Server_Side_App\Server_Side_App\obj\Debug\netcoreapp2.1\Server_Side_App.AssemblyInfo.cs
+C:\backend-git\Server_Side_App\Server_Side_App\obj\Debug\netcoreapp2.1\Server_Side_App.csproj.CoreCompileInputs.cache
+C:\backend-git\Server_Side_App\Server_Side_App\obj\Debug\netcoreapp2.1\Server_Side_App.RazorAssemblyInfo.cache
+C:\backend-git\Server_Side_App\Server_Side_App\obj\Debug\netcoreapp2.1\Server_Side_App.RazorAssemblyInfo.cs
+C:\backend-git\Server_Side_App\Server_Side_App\obj\Debug\netcoreapp2.1\Server_Side_App.RazorTargetAssemblyInfo.cache
+C:\backend-git\Server_Side_App\Server_Side_App\obj\Debug\netcoreapp2.1\Server_Side_App.dll
+C:\backend-git\Server_Side_App\Server_Side_App\obj\Debug\netcoreapp2.1\Server_Side_App.pdb
