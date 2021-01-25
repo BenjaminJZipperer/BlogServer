@@ -16,7 +16,7 @@ namespace Server_Side_App
         {
             CreateWebHostBuilder(args).Build().Run();
         }
-
+        // In version 3.0 ASP.NET Core has been rebuilt to use a Generic Host, instead of using a separate Web Host.
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
