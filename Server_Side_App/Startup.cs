@@ -38,7 +38,7 @@ namespace Server_Side_App
             });
             // Adding DB Context class here:
             services.AddDbContext<BookContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("sqlConUpString"));
+            options.UseSqlServer(Configuration.GetConnectionString("sqlConUpString")));
 
            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

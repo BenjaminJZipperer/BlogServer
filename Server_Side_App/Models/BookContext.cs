@@ -13,5 +13,6 @@ namespace Server_Side_App.Models
         }
 
         public DbSet<Bool> Books { get; set; }
+        
     }
 }
