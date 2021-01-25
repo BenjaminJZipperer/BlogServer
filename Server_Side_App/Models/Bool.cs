@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Server_Side_App.Models
 {
     [Table("Book")] // Bind later 
-    public class Book 
+    public class Bool 
     {
         [Key]
         public Guid   Id    { get; set; }
