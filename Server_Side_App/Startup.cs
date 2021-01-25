@@ -6,10 +6,12 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Server_Side_App.Models;
 
 namespace Server_Side_App
 {
@@ -34,7 +36,11 @@ namespace Server_Side_App
                     .AllowAnyHeader()
                     .AllowCredentials());
             });
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            // Adding DB Context class here:
+            services.AddDbContext<BookContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("sqlConUpString"));
+
+           services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
