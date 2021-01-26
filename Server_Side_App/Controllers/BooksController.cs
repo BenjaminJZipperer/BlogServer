@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Server_Side_App.Models;
-
+// => Controller is working => tested with firefox
 namespace Server_Side_App.Controllers
 {
     [Route("api/[controller]")]
