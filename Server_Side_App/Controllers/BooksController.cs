@@ -20,7 +20,7 @@ namespace Server_Side_App.Controllers
 
         // GET api/values
         [HttpGet]
-        public IActionResult GetBooks()
+        public IActionResult GetBooks() // Beginn API-Endpoint => Alle Bücher holen
         {
             try
             {
@@ -31,15 +31,10 @@ namespace Server_Side_App.Controllers
             catch (Exception ex)
             {
                 return StatusCode(500, $"Something went wrong: {ex.Message}");
-            }
+            } // Endpoint fertig
         }
-
-        // GET api/values
-        [HttpGet]
-        public IEnumerable<string> GetNormal()
-        {
-            return new string[] { "value1", "value2" };
-        }
+         
+      
 
     }
 }

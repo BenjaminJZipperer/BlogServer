@@ -12,3 +12,7 @@ C:\backend-git\Server_Side_App\Server_Side_App\obj\Debug\netcoreapp2.1\Server_Si
 C:\backend-git\Server_Side_App\Server_Side_App\obj\Debug\netcoreapp2.1\Server_Side_App.RazorTargetAssemblyInfo.cache
 C:\backend-git\Server_Side_App\Server_Side_App\obj\Debug\netcoreapp2.1\Server_Side_App.dll
 C:\backend-git\Server_Side_App\Server_Side_App\obj\Debug\netcoreapp2.1\Server_Side_App.pdb
+C:\backend-git\Server_Side_App\Server_Side_App\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\backend-git\Server_Side_App\Server_Side_App\bin\Debug\netcoreapp2.1\appsettings.json
+C:\backend-git\Server_Side_App\Server_Side_App\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\backend-git\Server_Side_App\Server_Side_App\obj\Debug\netcoreapp2.1\Server_Side_App.genruntimeconfig.cache
